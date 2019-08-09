@@ -174,7 +174,6 @@ export default function measure2(
   context.fillText(testText, xStart, h / 2)
   metrics.fontSize = parseInt(metrics.fontSize)
   metrics.offset = Math.ceil((metrics.leading - metrics.height) / 2)
-  metrics.width = JSON.parse(JSON.stringify(metrics.width))
   metrics.capHeight = capHeight
   metrics.xHeight = xHeight - 1
   metrics.ascender = metrics.capHeight - metrics.xHeight

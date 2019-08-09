@@ -17,15 +17,19 @@ try {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 
-    const queueOne = localFonts.map((fontName) => {
-      // has this already been calculated?
-      try {
-        db.getData(`/${fontName}/metrics`)
-      } catch (e) {
-        return async () => {}
-      }
+    let queue = []
 
-      return async () => {
+    localFonts.forEach((fontName) => {
+      // has this already been calculated?
+      let exists = false
+      try {
+        exists = db.getData(`/${fontName}/metrics`)
+      } catch (e) {
+        exists = false
+      }
+      if (exists) return
+
+      queue.push(async () => {
         const [fontMetrics, err] = await go(measurePage)(fontName)
         if (err != null) {
           console.log('Error measuring font', fontName)
@@ -37,18 +41,20 @@ try {
           source: 'local',
         })
         db.save()
-      }
+      })
     })
 
-    const queueTwo = fontCatalog.map((fontItem) => {
+    fontCatalog.forEach((fontItem) => {
       // has this already been calculated?
+      let exists = false
       try {
-        db.getData(`/${fontName}/metrics`)
+        exists = db.getData(`/${fontItem.family}/metrics`)
       } catch (e) {
-        return async () => {}
+        exists = false
       }
+      if (exists) return
 
-      return async () => {
+      queue.push(async () => {
         const fontName = fontItem.family
         const [fontMetrics, err] = await go(measurePage)(fontName)
         if (err != null) {
@@ -65,11 +71,12 @@ try {
           popularity: fontItem.popularity || '',
         })
         db.save()
-      }
+      })
     })
 
     async function measurePage(name) {
       try {
+        console.log('Navigating:', name)
         const url = 'http://localhost:3000/' + encodeURIComponent(name)
         await page.goto(url, { waitUntil: 'networkidle0' })
       } catch (e) {
@@ -77,7 +84,9 @@ try {
         return Promise.reject(new Error(e))
       }
       try {
+        console.log('Evaluating:', name)
         const metrics = await page.evaluate(runMeasure, name)
+        console.log('Evaluated:', name)
         return metrics
       } catch (e) {
         console.log('Failed to measure page', name, e)
@@ -86,8 +95,8 @@ try {
     }
 
     // Run the calculations
-    seq(queueOne)
-    seq(queueTwo)
+    console.log('Queue built', queue.length, 'font families to measure')
+    seq(queue)
   })()
 } catch (e) {
   throw new Error(e)
@@ -111,7 +120,7 @@ function runMeasure(name) {
           fontStyle: variant.style,
         })
         data[style][variant.weight].measure2 = window.measure2(name, {
-          fontSize: 200,
+          fontSize: 64,
           fontWeight: variant.weight,
           fontStyle: variant.style,
         })
