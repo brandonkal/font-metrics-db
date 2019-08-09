@@ -1,0 +1,18 @@
+{
+  "descriptions": {
+    "ascent": "distance above baseline",
+    "descent": "distance below baseline",
+    "height": "ascent + 1 for the baseline + descent",
+    "leading": "distance between consecutive baselines",
+    "bounds": {
+      "minx": "can be negative",
+      "miny": "can also be negative",
+      "maxx": "not necessarily the same as metrics.width",
+      "maxy": "not necessarily the same as metrics.height"
+    },
+    "capHeight": "height of the letter H",
+    "ascender": "distance above the letter x",
+    "xHeight": "height of the letter x (1ex)",
+    "descender": "distance below the letter x"
+  }
+}
