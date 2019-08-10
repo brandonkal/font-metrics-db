@@ -2,7 +2,7 @@
   "name": "@brandonkal/font-metrics-db",
   "description": "A collection of metrics for ~1,500 fonts as measured in the browser. These fonts include 93% of the Google Fonts library.",
   "author": "Brandon Kalinowski @brandonkal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "metrics.js",
   "license": "MIT",
   "keywords": [
