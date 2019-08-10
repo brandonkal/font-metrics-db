@@ -1,11 +1,15 @@
 {
-  "name": "font-metrics",
+  "name": "font-metrics-tooling",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "node src/server.js",
-    "start": "node collectMetrics.js"
+    "serve": "cd src && node server.js",
+    "start": "cd src && node collectMetrics.js",
+    "parcel": "cd src/web && parcel build index.html bundle.js --no-minify -d ../views && rm ../views/index.html",
+    "localfonts": "cd src && fc-list : family | tr , '\n' | tr '\\-' - | sed 's/\\.//g' | grep -v '[^A-Za-z0-9 -]' | sort -u | jq -R -s 'split(\"\n\")' | jq 'map(select(length > 0))'  >| ../download/local-fonts.json",
+    "download": "cd src/download && node run.js"
   },
   "dependencies": {
     "express": "^4.17.1",

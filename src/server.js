@@ -34,6 +34,9 @@ const getFontCatalog = require('./download/getFontCatalog')
   app.get('/', (req, res) => res.send('server running'))
 
   app.listen(3000)
+  console.log('Listening on: http://localhost:3000')
+  console.log('')
+  console.log('Append URL with any locally installed or Google Hosted font')
 })()
 
 function getFontData(font) {
