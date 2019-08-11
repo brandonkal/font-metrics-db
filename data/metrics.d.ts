@@ -55,16 +55,11 @@ declare interface Measure2 {
 
 declare interface Stats {
   readonly source: string
-  readonly category: string
-  readonly version: string
-  readonly lastModified: string
-  readonly popularity: number
+  readonly category?: string
+  readonly version?: string
+  readonly lastModified?: string
+  readonly popularity?: number
 }
-
-declare interface StatsLocal {
-  readonly source: string
-}
-
 declare const data: {
   ABeeZee: {
     metrics: {
@@ -83,7 +78,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Abadi MT Condensed Light': {
     metrics: {
@@ -91,7 +86,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Abel: {
     metrics: {
@@ -159,7 +154,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Caslon Pro': {
     metrics: {
@@ -167,7 +162,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Caslon Pro Bold': {
     metrics: {
@@ -175,7 +170,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Devanagari': {
     metrics: {
@@ -183,7 +178,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Fan Heiti Std': {
     metrics: {
@@ -191,7 +186,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Fan Heiti Std B': {
     metrics: {
@@ -199,7 +194,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Fangsong Std': {
     metrics: {
@@ -207,7 +202,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Fangsong Std R': {
     metrics: {
@@ -215,7 +210,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Garamond Pro': {
     metrics: {
@@ -223,7 +218,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Garamond Pro Bold': {
     metrics: {
@@ -231,7 +226,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Gothic Std': {
     metrics: {
@@ -239,7 +234,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Gothic Std B': {
     metrics: {
@@ -247,7 +242,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Gurmukhi': {
     metrics: {
@@ -255,7 +250,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Hebrew': {
     metrics: {
@@ -263,7 +258,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Heiti Std': {
     metrics: {
@@ -271,7 +266,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Heiti Std R': {
     metrics: {
@@ -279,7 +274,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Kaiti Std': {
     metrics: {
@@ -287,7 +282,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Kaiti Std R': {
     metrics: {
@@ -295,7 +290,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Ming Std': {
     metrics: {
@@ -303,7 +298,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Ming Std L': {
     metrics: {
@@ -311,7 +306,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Myungjo Std': {
     metrics: {
@@ -319,7 +314,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Myungjo Std M': {
     metrics: {
@@ -327,7 +322,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Naskh': {
     metrics: {
@@ -335,7 +330,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Naskh Medium': {
     metrics: {
@@ -343,7 +338,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Song Std': {
     metrics: {
@@ -351,7 +346,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Adobe Song Std L': {
     metrics: {
@@ -359,7 +354,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Advent Pro': {
     metrics: {
@@ -389,7 +384,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Akronim: {
     metrics: {
@@ -405,7 +400,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Bayan': {
     metrics: {
@@ -413,7 +408,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Bayan PUA': {
     metrics: {
@@ -421,7 +416,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Nile': {
     metrics: {
@@ -429,7 +424,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Nile PUA': {
     metrics: {
@@ -437,7 +432,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Tarikh': {
     metrics: {
@@ -445,7 +440,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Al Tarikh PUA': {
     metrics: {
@@ -453,7 +448,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Aladin: {
     metrics: {
@@ -577,7 +572,7 @@ declare const data: {
         '700': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Alex Brush': {
     metrics: {
@@ -717,7 +712,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Amethysta: {
     metrics: {
@@ -781,7 +776,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Andika: {
     metrics: {
@@ -805,7 +800,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Annie Use Your Telescope': {
     metrics: {
@@ -834,7 +829,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Antic: {
     metrics: {
@@ -874,7 +869,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple Braille': {
     metrics: {
@@ -882,7 +877,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple Chancery': {
     metrics: {
@@ -890,7 +885,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple Color Emoji': {
     metrics: {
@@ -898,7 +893,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple Color Emoji UI': {
     metrics: {
@@ -906,7 +901,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple SD Gothic Neo': {
     metrics: {
@@ -914,7 +909,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple SD Gothic NeoI': {
     metrics: {
@@ -922,7 +917,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Apple Symbols': {
     metrics: {
@@ -930,7 +925,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   AppleGothic: {
     metrics: {
@@ -938,7 +933,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   AppleMyungjo: {
     metrics: {
@@ -946,7 +941,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Aqua Kana': {
     metrics: {
@@ -954,7 +949,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Aqua Kana Bold': {
     metrics: {
@@ -962,7 +957,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Arapey: {
     metrics: {
@@ -1056,7 +1051,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Black': {
     metrics: {
@@ -1064,7 +1059,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Hebrew': {
     metrics: {
@@ -1072,7 +1067,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Hebrew Desk Interface': {
     metrics: {
@@ -1080,7 +1075,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Hebrew Scholar': {
     metrics: {
@@ -1088,7 +1083,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Narrow': {
     metrics: {
@@ -1096,7 +1091,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Rounded MT Bold': {
     metrics: {
@@ -1104,7 +1099,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arial Unicode MS': {
     metrics: {
@@ -1112,7 +1107,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Arima Madurai': {
     metrics: {
@@ -1288,7 +1283,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Athiti: {
     metrics: {
@@ -1353,7 +1348,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Black': {
     metrics: {
@@ -1361,7 +1356,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Black Oblique': {
     metrics: {
@@ -1369,7 +1364,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Book': {
     metrics: {
@@ -1377,7 +1372,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Heavy': {
     metrics: {
@@ -1385,7 +1380,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Light': {
     metrics: {
@@ -1393,7 +1388,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Medium': {
     metrics: {
@@ -1401,7 +1396,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next': {
     metrics: {
@@ -1409,7 +1404,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Condensed': {
     metrics: {
@@ -1417,7 +1412,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Condensed Demi Bold': {
     metrics: {
@@ -1425,7 +1420,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Condensed Heavy': {
     metrics: {
@@ -1433,7 +1428,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Condensed Medium': {
     metrics: {
@@ -1441,7 +1436,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Condensed Ultra Light': {
     metrics: {
@@ -1449,7 +1444,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Demi Bold': {
     metrics: {
@@ -1457,7 +1452,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Heavy': {
     metrics: {
@@ -1465,7 +1460,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Medium': {
     metrics: {
@@ -1473,7 +1468,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Avenir Next Ultra Light': {
     metrics: {
@@ -1481,7 +1476,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Average: {
     metrics: {
@@ -1558,7 +1553,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   B612: {
     metrics: {
@@ -1600,7 +1595,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Baghdad PUA': {
     metrics: {
@@ -1608,7 +1603,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Bahiana: {
     metrics: {
@@ -1749,7 +1744,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bangla Sangam MN': {
     metrics: {
@@ -1757,7 +1752,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Barlow: {
     metrics: {
@@ -1870,7 +1865,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Baskerville Old Face': {
     metrics: {
@@ -1878,7 +1873,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Batang: {
     metrics: {
@@ -1886,7 +1881,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Battambang: {
     metrics: {
@@ -1903,7 +1898,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Baumans: {
     metrics: {
@@ -1927,7 +1922,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Beirut: {
     metrics: {
@@ -1935,7 +1930,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Beirut PUA': {
     metrics: {
@@ -1943,7 +1938,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Belgrano: {
     metrics: {
@@ -1959,7 +1954,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Bellefair: {
     metrics: {
@@ -2009,7 +2004,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Beth Ellen': {
     metrics: {
@@ -2033,7 +2028,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bigelow Rules': {
     metrics: {
@@ -2097,7 +2092,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Biryani: {
     metrics: {
@@ -2155,7 +2150,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Blinker: {
     metrics: {
@@ -2178,7 +2173,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bodoni 72 Oldstyle': {
     metrics: {
@@ -2186,7 +2181,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bodoni 72 Smallcaps': {
     metrics: {
@@ -2194,7 +2189,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bodoni Ornaments': {
     metrics: {
@@ -2202,7 +2197,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Bokor: {
     metrics: {
@@ -2234,7 +2229,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bookman Old Style': {
     metrics: {
@@ -2242,7 +2237,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bookshelf Symbol 7': {
     metrics: {
@@ -2250,7 +2245,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bowlby One': {
     metrics: {
@@ -2274,7 +2269,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Braggadocio: {
     metrics: {
@@ -2282,7 +2277,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Brawler: {
     metrics: {
@@ -2306,7 +2301,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Brush Script MT': {
     metrics: {
@@ -2314,7 +2309,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Brush Script Std': {
     metrics: {
@@ -2322,7 +2317,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Bubblegum Sans': {
     metrics: {
@@ -2419,7 +2414,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Cabin: {
     metrics: {
@@ -2493,7 +2488,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Calibri Light': {
     metrics: {
@@ -2501,7 +2496,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Calisto MT': {
     metrics: {
@@ -2509,7 +2504,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Calligraffitti: {
     metrics: {
@@ -2546,7 +2541,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Cambria Math': {
     metrics: {
@@ -2554,7 +2549,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Candal: {
     metrics: {
@@ -2570,7 +2565,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Cantarell: {
     metrics: {
@@ -2713,7 +2708,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Century Gothic': {
     metrics: {
@@ -2721,7 +2716,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Century Schoolbook': {
     metrics: {
@@ -2729,7 +2724,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Ceviche One': {
     metrics: {
@@ -2764,7 +2759,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Chalkboard SE': {
     metrics: {
@@ -2772,7 +2767,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Chalkduster: {
     metrics: {
@@ -2780,7 +2775,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Changa: {
     metrics: {
@@ -2821,7 +2816,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Chaparral Pro Light': {
     metrics: {
@@ -2829,7 +2824,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Charlemagne Std': {
     metrics: {
@@ -2837,7 +2832,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Charm: {
     metrics: {
@@ -2863,7 +2858,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Charter Black': {
     metrics: {
@@ -2871,7 +2866,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Charter ITC': {
     metrics: {
@@ -2879,7 +2874,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Chathura: {
     metrics: {
@@ -3012,7 +3007,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Clicker Script': {
     metrics: {
@@ -3028,7 +3023,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Coda: {
     metrics: {
@@ -3070,7 +3065,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Combo: {
     metrics: {
@@ -3098,7 +3093,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Coming Soon': {
     metrics: {
@@ -3130,7 +3125,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Constantia: {
     metrics: {
@@ -3138,7 +3133,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Content: {
     metrics: {
@@ -3179,7 +3174,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Cooper Hewitt': {
     metrics: {
@@ -3187,7 +3182,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Cooper Std': {
     metrics: {
@@ -3195,7 +3190,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Cooper Std Black': {
     metrics: {
@@ -3203,7 +3198,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Copperplate: {
     metrics: {
@@ -3211,7 +3206,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Copperplate Gothic Bold': {
     metrics: {
@@ -3219,7 +3214,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Copperplate Gothic Light': {
     metrics: {
@@ -3227,7 +3222,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Copse: {
     metrics: {
@@ -3243,7 +3238,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Corben: {
     metrics: {
@@ -3353,7 +3348,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Courgette: {
     metrics: {
@@ -3369,7 +3364,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Courier New': {
     metrics: {
@@ -3377,7 +3372,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Cousine: {
     metrics: {
@@ -3390,7 +3385,7 @@ declare const data: {
         '700': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Coustard: {
     metrics: {
@@ -3511,7 +3506,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Cute Font': {
     metrics: {
@@ -3543,7 +3538,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'DIN Alternate': {
     metrics: {
@@ -3551,7 +3546,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'DIN Condensed': {
     metrics: {
@@ -3559,7 +3554,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'DM Sans': {
     metrics: {
@@ -3604,7 +3599,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Damascus: {
     metrics: {
@@ -3612,7 +3607,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Damascus PUA': {
     metrics: {
@@ -3620,7 +3615,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Damion: {
     metrics: {
@@ -3693,7 +3688,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'DecoType Naskh PUA': {
     metrics: {
@@ -3701,7 +3696,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Dekko: {
     metrics: {
@@ -3758,7 +3753,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Devanagari MT': {
     metrics: {
@@ -3766,7 +3761,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Devanagari Sangam MN': {
     metrics: {
@@ -3774,7 +3769,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Devonshire: {
     metrics: {
@@ -3790,7 +3785,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Dharma Gothic E Bold': {
     metrics: {
@@ -3798,7 +3793,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Dhurjati: {
     metrics: {
@@ -3822,7 +3817,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Diplomata: {
     metrics: {
@@ -3846,7 +3841,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Diwan Kufi PUA': {
     metrics: {
@@ -3854,7 +3849,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Diwan Thuluth': {
     metrics: {
@@ -3862,7 +3857,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Do Hyeon': {
     metrics: {
@@ -3941,7 +3936,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Duke Fill': {
     metrics: {
@@ -3949,7 +3944,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Duru Sans': {
     metrics: {
@@ -4041,7 +4036,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Edmondsans Bold': {
     metrics: {
@@ -4049,7 +4044,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Edmondsans Medium': {
     metrics: {
@@ -4057,7 +4052,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Edmondsans Regular': {
     metrics: {
@@ -4065,7 +4060,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Edwardian Script ITC': {
     metrics: {
@@ -4073,7 +4068,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'El Messiri': {
     metrics: {
@@ -4230,7 +4225,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Enriqueta: {
     metrics: {
@@ -4265,7 +4260,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Euphemia UCAS': {
     metrics: {
@@ -4273,7 +4268,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Euphoria Script': {
     metrics: {
@@ -4289,7 +4284,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Ewert: {
     metrics: {
@@ -4376,7 +4371,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Fahkwang: {
     metrics: {
@@ -4416,7 +4411,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Farah PUA': {
     metrics: {
@@ -4424,7 +4419,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Farisi: {
     metrics: {
@@ -4432,7 +4427,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Farro: {
     metrics: {
@@ -4560,7 +4555,7 @@ declare const data: {
         '700': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Fira Code Light': {
     metrics: {
@@ -4568,7 +4563,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Fira Code Medium': {
     metrics: {
@@ -4576,7 +4571,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Fira Code Retina': {
     metrics: {
@@ -4584,7 +4579,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Fira Mono': {
     metrics: {
@@ -4716,7 +4711,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Fondamento: {
     metrics: {
@@ -4735,7 +4730,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Font di sistema': {
     metrics: {
@@ -4743,7 +4738,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Font sustava': {
     metrics: {
@@ -4751,7 +4746,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Fontdiner Swanky': {
     metrics: {
@@ -4767,7 +4762,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Footlight MT Light': {
     metrics: {
@@ -4775,7 +4770,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Forum: {
     metrics: {
@@ -4811,7 +4806,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Franklin Gothic Medium': {
     metrics: {
@@ -4819,7 +4814,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Freckle Face': {
     metrics: {
@@ -4891,7 +4886,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'GB18030 Bitmap': {
     metrics: {
@@ -4899,7 +4894,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'GFS Didot': {
     metrics: {
@@ -4936,7 +4931,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Gaegu: {
     metrics: {
@@ -4994,7 +4989,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Geeza Pro': {
     metrics: {
@@ -5002,7 +4997,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Geeza Pro Interface': {
     metrics: {
@@ -5010,7 +5005,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Geeza Pro PUA': {
     metrics: {
@@ -5018,7 +5013,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Geneva: {
     metrics: {
@@ -5026,7 +5021,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gentium Basic': {
     metrics: {
@@ -5071,7 +5066,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Geostar: {
     metrics: {
@@ -5103,7 +5098,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Gidugu: {
     metrics: {
@@ -5127,7 +5122,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gill Sans MT': {
     metrics: {
@@ -5135,7 +5130,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gill Sans Ultra Bold': {
     metrics: {
@@ -5143,7 +5138,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Give You Glory': {
     metrics: {
@@ -5184,7 +5179,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Goblin One': {
     metrics: {
@@ -5241,7 +5236,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Graduate: {
     metrics: {
@@ -5344,7 +5339,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gujarati Sangam MN': {
     metrics: {
@@ -5352,7 +5347,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Gulim: {
     metrics: {
@@ -5360,7 +5355,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Gurajada: {
     metrics: {
@@ -5376,7 +5371,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gurmukhi MT': {
     metrics: {
@@ -5384,7 +5379,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Gurmukhi Sangam MN': {
     metrics: {
@@ -5392,7 +5387,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Habibi: {
     metrics: {
@@ -5408,7 +5403,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Halant: {
     metrics: {
@@ -5485,7 +5480,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Headland One': {
     metrics: {
@@ -5515,7 +5510,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Heiti TC': {
     metrics: {
@@ -5523,7 +5518,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Helvetica: {
     metrics: {
@@ -5531,7 +5526,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Helvetica LT MM': {
     metrics: {
@@ -5539,7 +5534,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Helvetica Neue': {
     metrics: {
@@ -5547,7 +5542,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Helvetica Neue DeskInterface': {
     metrics: {
@@ -5555,7 +5550,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Henny Penny': {
     metrics: {
@@ -5571,7 +5566,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Herr Von Muellerhoff': {
     metrics: {
@@ -5655,7 +5650,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic Pro': {
     metrics: {
@@ -5663,7 +5658,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic Pro W3': {
     metrics: {
@@ -5671,7 +5666,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic Pro W6': {
     metrics: {
@@ -5679,7 +5674,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic ProN': {
     metrics: {
@@ -5687,7 +5682,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic ProN W3': {
     metrics: {
@@ -5695,7 +5690,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic ProN W6': {
     metrics: {
@@ -5703,7 +5698,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic Std': {
     metrics: {
@@ -5711,7 +5706,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic Std W8': {
     metrics: {
@@ -5719,7 +5714,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic StdN': {
     metrics: {
@@ -5727,7 +5722,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Kaku Gothic StdN W8': {
     metrics: {
@@ -5735,7 +5730,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Maru Gothic Pro': {
     metrics: {
@@ -5743,7 +5738,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Maru Gothic Pro W4': {
     metrics: {
@@ -5751,7 +5746,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Maru Gothic ProN': {
     metrics: {
@@ -5759,7 +5754,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Maru Gothic ProN W4': {
     metrics: {
@@ -5767,7 +5762,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho Pro': {
     metrics: {
@@ -5775,7 +5770,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho Pro W3': {
     metrics: {
@@ -5783,7 +5778,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho Pro W6': {
     metrics: {
@@ -5791,7 +5786,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho ProN': {
     metrics: {
@@ -5799,7 +5794,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho ProN W3': {
     metrics: {
@@ -5807,7 +5802,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Mincho ProN W6': {
     metrics: {
@@ -5815,7 +5810,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans': {
     metrics: {
@@ -5823,7 +5818,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans GB': {
     metrics: {
@@ -5831,7 +5826,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans GB Interface': {
     metrics: {
@@ -5839,7 +5834,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans GB W3': {
     metrics: {
@@ -5847,7 +5842,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans GB W6': {
     metrics: {
@@ -5855,7 +5850,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W0': {
     metrics: {
@@ -5863,7 +5858,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W1': {
     metrics: {
@@ -5871,7 +5866,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W2': {
     metrics: {
@@ -5879,7 +5874,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W3': {
     metrics: {
@@ -5887,7 +5882,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W4': {
     metrics: {
@@ -5895,7 +5890,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W5': {
     metrics: {
@@ -5903,7 +5898,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W6': {
     metrics: {
@@ -5911,7 +5906,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W7': {
     metrics: {
@@ -5919,7 +5914,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W8': {
     metrics: {
@@ -5927,7 +5922,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hiragino Sans W9': {
     metrics: {
@@ -5935,7 +5930,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hobo Std': {
     metrics: {
@@ -5943,7 +5938,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Hoefler Text': {
     metrics: {
@@ -5951,7 +5946,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Holtwood One SC': {
     metrics: {
@@ -6170,7 +6165,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'ITF Devanagari Marathi': {
     metrics: {
@@ -6178,7 +6173,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Iceberg: {
     metrics: {
@@ -6202,7 +6197,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Imprima: {
     metrics: {
@@ -6218,7 +6213,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   InaiMathi: {
     metrics: {
@@ -6226,7 +6221,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Inconsolata: {
     metrics: {
@@ -6282,7 +6277,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Iowan Old Style Black': {
     metrics: {
@@ -6290,7 +6285,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Irish Grover': {
     metrics: {
@@ -6343,7 +6338,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Jacques Francois': {
     metrics: {
@@ -6560,7 +6555,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Kalam: {
     metrics: {
@@ -6614,7 +6609,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kannada Sangam MN': {
     metrics: {
@@ -6622,7 +6617,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Kantumruy: {
     metrics: {
@@ -6713,7 +6708,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kelly Slab': {
     metrics: {
@@ -6737,7 +6732,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Keyboard: {
     metrics: {
@@ -6745,7 +6740,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Khand: {
     metrics: {
@@ -6773,7 +6768,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Khmer Sangam MN': {
     metrics: {
@@ -6781,7 +6776,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Khula: {
     metrics: {
@@ -6801,7 +6796,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kirang Haerang': {
     metrics: {
@@ -6875,7 +6870,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Devanagari': {
     metrics: {
@@ -6883,7 +6878,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Telugu': {
     metrics: {
@@ -6891,7 +6886,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Telugu Bold': {
     metrics: {
@@ -6899,7 +6894,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Telugu Light': {
     metrics: {
@@ -6907,7 +6902,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Telugu Medium': {
     metrics: {
@@ -6915,7 +6910,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kohinoor Telugu Semibold': {
     metrics: {
@@ -6923,7 +6918,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Kokonor: {
     metrics: {
@@ -6931,7 +6926,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Kosugi: {
     metrics: {
@@ -6971,7 +6966,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N B': {
     metrics: {
@@ -6979,7 +6974,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N EL': {
     metrics: {
@@ -6987,7 +6982,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N H': {
     metrics: {
@@ -6995,7 +6990,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N L': {
     metrics: {
@@ -7003,7 +6998,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N M': {
     metrics: {
@@ -7011,7 +7006,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pr6N R': {
     metrics: {
@@ -7019,7 +7014,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro': {
     metrics: {
@@ -7027,7 +7022,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro B': {
     metrics: {
@@ -7035,7 +7030,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro EL': {
     metrics: {
@@ -7043,7 +7038,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro H': {
     metrics: {
@@ -7051,7 +7046,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro L': {
     metrics: {
@@ -7059,7 +7054,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro M': {
     metrics: {
@@ -7067,7 +7062,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Gothic Pro R': {
     metrics: {
@@ -7075,7 +7070,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N': {
     metrics: {
@@ -7083,7 +7078,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N B': {
     metrics: {
@@ -7091,7 +7086,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N EL': {
     metrics: {
@@ -7099,7 +7094,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N H': {
     metrics: {
@@ -7107,7 +7102,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N L': {
     metrics: {
@@ -7115,7 +7110,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N M': {
     metrics: {
@@ -7123,7 +7118,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pr6N R': {
     metrics: {
@@ -7131,7 +7126,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro': {
     metrics: {
@@ -7139,7 +7134,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro B': {
     metrics: {
@@ -7147,7 +7142,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro EL': {
     metrics: {
@@ -7155,7 +7150,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro H': {
     metrics: {
@@ -7163,7 +7158,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro L': {
     metrics: {
@@ -7171,7 +7166,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro M': {
     metrics: {
@@ -7179,7 +7174,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kozuka Mincho Pro R': {
     metrics: {
@@ -7187,7 +7182,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Kranky: {
     metrics: {
@@ -7252,7 +7247,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   KufiStandardGK: {
     metrics: {
@@ -7260,7 +7255,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'KufiStandardGK PUA': {
     metrics: {
@@ -7268,7 +7263,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Kumar One': {
     metrics: {
@@ -7352,7 +7347,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lao Sangam MN': {
     metrics: {
@@ -7360,7 +7355,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   LastResort: {
     metrics: {
@@ -7368,7 +7363,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Lateef: {
     metrics: {
@@ -7458,7 +7453,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lexend Deca': {
     metrics: {
@@ -7629,7 +7624,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin ExtraBold': {
     metrics: {
@@ -7637,7 +7632,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin ExtraLight': {
     metrics: {
@@ -7645,7 +7640,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin Light': {
     metrics: {
@@ -7653,7 +7648,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin Medium': {
     metrics: {
@@ -7661,7 +7656,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin SemiBold': {
     metrics: {
@@ -7669,7 +7664,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Libre Franklin Thin': {
     metrics: {
@@ -7677,7 +7672,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Life Savers': {
     metrics: {
@@ -7695,7 +7690,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lilita One': {
     metrics: {
@@ -7755,7 +7750,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lithos Pro Regular': {
     metrics: {
@@ -7763,7 +7758,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Liu Jian Mao Cao': {
     metrics: {
@@ -7880,7 +7875,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Bright': {
     metrics: {
@@ -7888,7 +7883,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Calligraphy': {
     metrics: {
@@ -7896,7 +7891,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Console': {
     metrics: {
@@ -7904,7 +7899,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Fax': {
     metrics: {
@@ -7912,7 +7907,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Grande': {
     metrics: {
@@ -7920,7 +7915,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Grande UI': {
     metrics: {
@@ -7928,7 +7923,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Handwriting': {
     metrics: {
@@ -7936,7 +7931,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Sans': {
     metrics: {
@@ -7944,7 +7939,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Sans Typewriter': {
     metrics: {
@@ -7952,7 +7947,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Lucida Sans Unicode': {
     metrics: {
@@ -7960,7 +7955,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Luckiest Guy': {
     metrics: {
@@ -7976,7 +7971,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Lusitana: {
     metrics: {
@@ -8029,7 +8024,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MS Mincho': {
     metrics: {
@@ -8037,7 +8032,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MS PGothic': {
     metrics: {
@@ -8045,7 +8040,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MS PMincho': {
     metrics: {
@@ -8053,7 +8048,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MS Reference Sans Serif': {
     metrics: {
@@ -8061,7 +8056,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MS Reference Specialty': {
     metrics: {
@@ -8069,7 +8064,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'MT Extra': {
     metrics: {
@@ -8077,7 +8072,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Ma Shan Zheng': {
     metrics: {
@@ -8161,7 +8156,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Mako: {
     metrics: {
@@ -8177,7 +8172,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Malayalam Sangam MN': {
     metrics: {
@@ -8185,7 +8180,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Mali: {
     metrics: {
@@ -8279,7 +8274,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Markazi Text': {
     metrics: {
@@ -8298,7 +8293,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Marko One': {
     metrics: {
@@ -8314,7 +8309,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Marmelad: {
     metrics: {
@@ -8390,7 +8385,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Maven Pro': {
     metrics: {
@@ -8465,7 +8460,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Menlo: {
     metrics: {
@@ -8473,7 +8468,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Merienda: {
     metrics: {
@@ -8515,7 +8510,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Merriweather Light': {
     metrics: {
@@ -8523,7 +8518,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Merriweather Sans': {
     metrics: {
@@ -8548,7 +8543,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Metal: {
     metrics: {
@@ -8596,7 +8591,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Microsoft Sans Serif': {
     metrics: {
@@ -8604,7 +8599,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Microsoft Tai Le': {
     metrics: {
@@ -8612,7 +8607,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Microsoft Yi Baiti': {
     metrics: {
@@ -8620,7 +8615,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Milonga: {
     metrics: {
@@ -8661,7 +8656,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Minion Pro': {
     metrics: {
@@ -8669,7 +8664,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Minion Pro Cond': {
     metrics: {
@@ -8677,7 +8672,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Minion Pro Med': {
     metrics: {
@@ -8685,7 +8680,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Minion Pro SmBd': {
     metrics: {
@@ -8693,7 +8688,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Miniver: {
     metrics: {
@@ -8729,7 +8724,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Mishafi Gold': {
     metrics: {
@@ -8737,7 +8732,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Miss Fajardose': {
     metrics: {
@@ -8753,7 +8748,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Mitr: {
     metrics: {
@@ -8790,7 +8785,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Mogra: {
     metrics: {
@@ -8822,7 +8817,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Monda: {
     metrics: {
@@ -8839,7 +8834,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Monofett: {
     metrics: {
@@ -8855,7 +8850,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Monoton: {
     metrics: {
@@ -8871,7 +8866,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Monotype Sorts': {
     metrics: {
@@ -8879,7 +8874,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Monsieur La Doulaise': {
     metrics: {
@@ -8911,7 +8906,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Montserrat: {
     metrics: {
@@ -9055,7 +9050,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Mukta: {
     metrics: {
@@ -9142,7 +9137,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Muna PUA': {
     metrics: {
@@ -9150,7 +9145,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myanmar MN': {
     metrics: {
@@ -9158,7 +9153,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myanmar Sangam MN': {
     metrics: {
@@ -9166,7 +9161,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Arabic': {
     metrics: {
@@ -9174,7 +9169,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Hebrew': {
     metrics: {
@@ -9182,7 +9177,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Pro': {
     metrics: {
@@ -9190,7 +9185,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Pro Cond': {
     metrics: {
@@ -9198,7 +9193,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Pro Light': {
     metrics: {
@@ -9206,7 +9201,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Myriad Web Pro': {
     metrics: {
@@ -9214,7 +9209,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Mystery Quest': {
     metrics: {
@@ -9238,7 +9233,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Nadeem PUA': {
     metrics: {
@@ -9246,7 +9241,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Nanum Brush Script': {
     metrics: {
@@ -9322,7 +9317,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'New Peninim MT': {
     metrics: {
@@ -9330,7 +9325,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'New Rocker': {
     metrics: {
@@ -9355,7 +9350,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Niconne: {
     metrics: {
@@ -9448,7 +9443,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Nothing You Could Do': {
     metrics: {
@@ -9688,7 +9683,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Nueva Std Cond': {
     metrics: {
@@ -9696,7 +9691,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Numans: {
     metrics: {
@@ -9758,7 +9753,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Odor Mean Chey': {
     metrics: {
@@ -9820,7 +9815,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Open Sans': {
     metrics: {
@@ -9859,7 +9854,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Oranienbaum: {
     metrics: {
@@ -9875,7 +9870,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Orbitron: {
     metrics: {
@@ -9921,7 +9916,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Oriya Sangam MN': {
     metrics: {
@@ -9929,7 +9924,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Oswald: {
     metrics: {
@@ -10043,7 +10038,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'PT Mono': {
     metrics: {
@@ -10156,7 +10151,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Palatino Linotype': {
     metrics: {
@@ -10164,7 +10159,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Pangolin: {
     metrics: {
@@ -10188,7 +10183,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Parisienne: {
     metrics: {
@@ -10302,7 +10297,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Perpetua Titling MT': {
     metrics: {
@@ -10310,7 +10305,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Petit Formal Script': {
     metrics: {
@@ -10347,7 +10342,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Piedra: {
     metrics: {
@@ -10363,7 +10358,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'PingFang SC': {
     metrics: {
@@ -10371,7 +10366,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'PingFang TC': {
     metrics: {
@@ -10379,7 +10374,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Pinyon Script': {
     metrics: {
@@ -10403,7 +10398,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Plantagenet Cherokee': {
     metrics: {
@@ -10411,7 +10406,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Plaster: {
     metrics: {
@@ -10444,7 +10439,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Playfair Display': {
     metrics: {
@@ -10545,7 +10540,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Poppins: {
     metrics: {
@@ -10629,7 +10624,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Pridi: {
     metrics: {
@@ -10820,7 +10815,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Racing Sans One': {
     metrics: {
@@ -11117,7 +11112,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Roboto Condensed': {
     metrics: {
@@ -11140,7 +11135,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Roboto Light': {
     metrics: {
@@ -11148,7 +11143,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Roboto Medium': {
     metrics: {
@@ -11156,7 +11151,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Roboto Mono': {
     metrics: {
@@ -11194,7 +11189,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Rochester: {
     metrics: {
@@ -11218,7 +11213,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Rockwell Extra Bold': {
     metrics: {
@@ -11226,7 +11221,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Rokkitt: {
     metrics: {
@@ -11293,7 +11288,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Rosewood Std Regular': {
     metrics: {
@@ -11301,7 +11296,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Rouge Script': {
     metrics: {
@@ -11427,7 +11422,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Compact Rounded': {
     metrics: {
@@ -11435,7 +11430,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Compact Text': {
     metrics: {
@@ -11443,7 +11438,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Hollywood Hills': {
     metrics: {
@@ -11451,7 +11446,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Hollywood Hills Condensed': {
     metrics: {
@@ -11459,7 +11454,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Hollywood Hills Extended': {
     metrics: {
@@ -11467,7 +11462,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF Movie Poster': {
     metrics: {
@@ -11475,7 +11470,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF NS Display': {
     metrics: {
@@ -11483,7 +11478,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF NS Display Condensed': {
     metrics: {
@@ -11491,7 +11486,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF NS Text': {
     metrics: {
@@ -11499,7 +11494,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'SF NS Text Condensed': {
     metrics: {
@@ -11507,7 +11502,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   SKYfontThick: {
     metrics: {
@@ -11515,7 +11510,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXGeneral: {
     metrics: {
@@ -11523,7 +11518,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXIntegralsD: {
     metrics: {
@@ -11531,7 +11526,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXIntegralsSm: {
     metrics: {
@@ -11539,7 +11534,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXIntegralsUp: {
     metrics: {
@@ -11547,7 +11542,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXIntegralsUpD: {
     metrics: {
@@ -11555,7 +11550,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXIntegralsUpSm: {
     metrics: {
@@ -11563,7 +11558,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXNonUnicode: {
     metrics: {
@@ -11571,7 +11566,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXSizeFiveSym: {
     metrics: {
@@ -11579,7 +11574,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXSizeFourSym: {
     metrics: {
@@ -11587,7 +11582,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXSizeOneSym: {
     metrics: {
@@ -11595,7 +11590,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXSizeThreeSym: {
     metrics: {
@@ -11603,7 +11598,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXSizeTwoSym: {
     metrics: {
@@ -11611,7 +11606,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STIXVariants: {
     metrics: {
@@ -11619,7 +11614,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   STSong: {
     metrics: {
@@ -11627,7 +11622,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sacramento: {
     metrics: {
@@ -11740,7 +11735,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Sana PUA': {
     metrics: {
@@ -11748,7 +11743,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sanchez: {
     metrics: {
@@ -11847,7 +11842,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Satisfy: {
     metrics: {
@@ -11863,7 +11858,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Savoye LET CC': {
     metrics: {
@@ -11871,7 +11866,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Sawarabi Gothic': {
     metrics: {
@@ -11925,7 +11920,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Scope One': {
     metrics: {
@@ -11973,7 +11968,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Seravek ExtraLight': {
     metrics: {
@@ -11981,7 +11976,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Seravek Light': {
     metrics: {
@@ -11989,7 +11984,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Seravek Medium': {
     metrics: {
@@ -11997,7 +11992,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sevillana: {
     metrics: {
@@ -12090,7 +12085,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Shrikhand: {
     metrics: {
@@ -12122,7 +12117,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Signika: {
     metrics: {
@@ -12152,7 +12147,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   SimHei: {
     metrics: {
@@ -12160,7 +12155,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   SimSun: {
     metrics: {
@@ -12168,7 +12163,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Simonetta: {
     metrics: {
@@ -12197,7 +12192,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Sinhala Sangam MN': {
     metrics: {
@@ -12205,7 +12200,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sintony: {
     metrics: {
@@ -12230,7 +12225,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Six Caps': {
     metrics: {
@@ -12246,7 +12241,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Skranji: {
     metrics: {
@@ -12303,7 +12298,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sniglet: {
     metrics: {
@@ -12360,7 +12355,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Songti TC': {
     metrics: {
@@ -12368,7 +12363,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Sonsie One': {
     metrics: {
@@ -12409,7 +12404,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Code Pro ExtraLight': {
     metrics: {
@@ -12417,7 +12412,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Code Pro Light': {
     metrics: {
@@ -12425,7 +12420,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Code Pro Semibold': {
     metrics: {
@@ -12433,7 +12428,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Sans Pro': {
     metrics: {
@@ -12462,7 +12457,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Sans Pro ExtraLight': {
     metrics: {
@@ -12470,7 +12465,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Sans Pro Light': {
     metrics: {
@@ -12478,7 +12473,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Sans Pro Semibold': {
     metrics: {
@@ -12486,7 +12481,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Source Serif Pro': {
     metrics: {
@@ -12661,7 +12656,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Stencil: {
     metrics: {
@@ -12669,7 +12664,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Stencil Std': {
     metrics: {
@@ -12677,7 +12672,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Stint Ultra Condensed': {
     metrics: {
@@ -12710,7 +12705,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Stone Sans Sem OS ITC TT': {
     metrics: {
@@ -12718,7 +12713,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Stone Sans Sem OS ITCTT': {
     metrics: {
@@ -12726,7 +12721,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Strait: {
     metrics: {
@@ -12742,7 +12737,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Stylish: {
     metrics: {
@@ -12774,7 +12769,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Sumana: {
     metrics: {
@@ -12809,7 +12804,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Supermercado One': {
     metrics: {
@@ -12866,7 +12861,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Synchro LET': {
     metrics: {
@@ -12874,7 +12869,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Syncopate: {
     metrics: {
@@ -12891,7 +12886,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'System Font': {
     metrics: {
@@ -12899,7 +12894,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Systemschrift: {
     metrics: {
@@ -12907,7 +12902,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Systemskrift: {
     metrics: {
@@ -12915,7 +12910,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Systemtypsnitt: {
     metrics: {
@@ -12923,7 +12918,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'TI Uni': {
     metrics: {
@@ -12931,7 +12926,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Tahoma: {
     metrics: {
@@ -12939,7 +12934,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Tajawal: {
     metrics: {
@@ -12961,7 +12956,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tamil Sangam MN': {
     metrics: {
@@ -12969,7 +12964,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Tangerine: {
     metrics: {
@@ -13029,7 +13024,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Teko: {
     metrics: {
@@ -13049,7 +13044,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tekton Pro Cond': {
     metrics: {
@@ -13057,7 +13052,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tekton Pro Ext': {
     metrics: {
@@ -13065,7 +13060,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Telex: {
     metrics: {
@@ -13081,7 +13076,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Telugu Sangam MN': {
     metrics: {
@@ -13089,7 +13084,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tenali Ramakrishna': {
     metrics: {
@@ -13142,7 +13137,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Tienne: {
     metrics: {
@@ -13172,7 +13167,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Times LT MM': {
     metrics: {
@@ -13180,7 +13175,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Times New Roman': {
     metrics: {
@@ -13188,7 +13183,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Timmana: {
     metrics: {
@@ -13217,7 +13212,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tipo de letra do sistema': {
     metrics: {
@@ -13225,7 +13220,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Tipus de lletra del sistema': {
     metrics: {
@@ -13233,7 +13228,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Titan One': {
     metrics: {
@@ -13277,7 +13272,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Trajan Pro 3': {
     metrics: {
@@ -13285,7 +13280,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Trattatello: {
     metrics: {
@@ -13293,7 +13288,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Trebuchet MS': {
     metrics: {
@@ -13301,7 +13296,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Trirong: {
     metrics: {
@@ -13372,7 +13367,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Ubuntu: {
     metrics: {
@@ -13405,7 +13400,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Ubuntu Mono': {
     metrics: {
@@ -13474,7 +13469,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Unkempt: {
     metrics: {
@@ -13552,7 +13547,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Vesper Libre': {
     metrics: {
@@ -13684,7 +13679,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Webdings: {
     metrics: {
@@ -13692,7 +13687,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Wellfleet: {
     metrics: {
@@ -13716,7 +13711,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Wingdings: {
     metrics: {
@@ -13724,7 +13719,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Wingdings 2': {
     metrics: {
@@ -13732,7 +13727,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Wingdings 3': {
     metrics: {
@@ -13740,7 +13735,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Wire One': {
     metrics: {
@@ -13756,7 +13751,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   'Work Sans': {
     metrics: {
@@ -13880,7 +13875,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Zapfino: {
     metrics: {
@@ -13888,7 +13883,7 @@ declare const data: {
         '400': Measurements
       }
     }
-    stats: StatsLocal
+    stats: Stats
   }
   Zeyada: {
     metrics: {

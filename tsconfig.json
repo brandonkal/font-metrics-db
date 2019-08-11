@@ -9,5 +9,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "declaration": true
-  }
+  },
+  "files": ["data/metrics.ts"]
 }
