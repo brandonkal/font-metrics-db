@@ -63,10 +63,10 @@ declare interface Stats {
 declare const data: {
   ABeeZee: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -477,14 +477,14 @@ declare const data: {
   }
   Alegreya: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -496,14 +496,14 @@ declare const data: {
   }
   'Alegreya SC': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -515,7 +515,7 @@ declare const data: {
   }
   'Alegreya Sans': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -524,7 +524,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -538,7 +538,7 @@ declare const data: {
   }
   'Alegreya Sans SC': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -547,7 +547,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -561,12 +561,12 @@ declare const data: {
   }
   Aleo: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -649,11 +649,11 @@ declare const data: {
   }
   Almendra: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -686,11 +686,11 @@ declare const data: {
   }
   Amaranth: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -734,11 +734,11 @@ declare const data: {
   }
   Amiri: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -812,11 +812,11 @@ declare const data: {
   }
   'Anonymous Pro': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -961,10 +961,10 @@ declare const data: {
   }
   Arapey: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -996,13 +996,13 @@ declare const data: {
   }
   Archivo: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -1021,13 +1021,13 @@ declare const data: {
   }
   'Archivo Narrow': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -1126,11 +1126,11 @@ declare const data: {
   }
   Arimo: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -1155,11 +1155,11 @@ declare const data: {
   }
   Arsenal: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -1176,11 +1176,11 @@ declare const data: {
   }
   Arvo: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -1198,13 +1198,13 @@ declare const data: {
   }
   Asap: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -1215,13 +1215,13 @@ declare const data: {
   }
   'Asap Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -1504,12 +1504,12 @@ declare const data: {
   }
   'Averia Libre': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -1519,12 +1519,12 @@ declare const data: {
   }
   'Averia Sans Libre': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -1534,12 +1534,12 @@ declare const data: {
   }
   'Averia Serif Libre': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -1557,11 +1557,11 @@ declare const data: {
   }
   B612: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -1570,11 +1570,11 @@ declare const data: {
   }
   'B612 Mono': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -1623,7 +1623,7 @@ declare const data: {
   }
   'Bai Jamjuree': {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -1631,7 +1631,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -1756,7 +1756,7 @@ declare const data: {
   }
   Barlow: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -1767,7 +1767,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -1783,7 +1783,7 @@ declare const data: {
   }
   'Barlow Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -1794,7 +1794,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -1810,7 +1810,7 @@ declare const data: {
   }
   'Barlow Semi Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -1821,7 +1821,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -2110,12 +2110,12 @@ declare const data: {
   }
   Bitter: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -2418,13 +2418,13 @@ declare const data: {
   }
   Cabin: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -2516,11 +2516,11 @@ declare const data: {
   }
   Cambay: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -2569,11 +2569,11 @@ declare const data: {
   }
   Cantarell: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -2606,12 +2606,12 @@ declare const data: {
   }
   Cardo: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -2666,11 +2666,11 @@ declare const data: {
   }
   Caudex: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -2736,14 +2736,14 @@ declare const data: {
   }
   'Chakra Petch': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -2793,10 +2793,10 @@ declare const data: {
   }
   'Changa One': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -2890,10 +2890,10 @@ declare const data: {
   }
   'Chau Philomene One': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -2958,13 +2958,13 @@ declare const data: {
   }
   Chivo: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -3251,14 +3251,14 @@ declare const data: {
   }
   Cormorant: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -3270,14 +3270,14 @@ declare const data: {
   }
   'Cormorant Garamond': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -3289,14 +3289,14 @@ declare const data: {
   }
   'Cormorant Infant': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -3376,11 +3376,11 @@ declare const data: {
   }
   Cousine: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -3422,10 +3422,10 @@ declare const data: {
   }
   'Crete Round': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -3433,7 +3433,7 @@ declare const data: {
   }
   'Crimson Pro': {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -3443,7 +3443,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -3458,12 +3458,12 @@ declare const data: {
   }
   'Crimson Text': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '600': Measurements
         '700': Measurements
@@ -3489,11 +3489,11 @@ declare const data: {
   }
   Cuprum: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -3558,12 +3558,12 @@ declare const data: {
   }
   'DM Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -3573,10 +3573,10 @@ declare const data: {
   }
   'DM Serif Display': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -3584,10 +3584,10 @@ declare const data: {
   }
   'DM Serif Text': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -3964,14 +3964,14 @@ declare const data: {
   }
   'EB Garamond': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -4007,11 +4007,11 @@ declare const data: {
   }
   Economica: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -4296,7 +4296,7 @@ declare const data: {
   }
   Exo: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4307,7 +4307,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4323,7 +4323,7 @@ declare const data: {
   }
   'Exo 2': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4334,7 +4334,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4350,13 +4350,13 @@ declare const data: {
   }
   'Expletus Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -4375,7 +4375,7 @@ declare const data: {
   }
   Fahkwang: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -4383,7 +4383,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -4396,10 +4396,10 @@ declare const data: {
   }
   'Fanwood Text': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -4490,13 +4490,13 @@ declare const data: {
   }
   Faustina: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -4593,7 +4593,7 @@ declare const data: {
   }
   'Fira Sans': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4604,7 +4604,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4620,7 +4620,7 @@ declare const data: {
   }
   'Fira Sans Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4631,7 +4631,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4647,7 +4647,7 @@ declare const data: {
   }
   'Fira Sans Extra Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4658,7 +4658,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -4715,10 +4715,10 @@ declare const data: {
   }
   Fondamento: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -4906,11 +4906,11 @@ declare const data: {
   }
   'GFS Neohellenic': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -5025,11 +5025,11 @@ declare const data: {
   }
   'Gentium Basic': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -5038,11 +5038,11 @@ declare const data: {
   }
   'Gentium Book Basic': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -5051,10 +5051,10 @@ declare const data: {
   }
   Geo: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -5272,7 +5272,7 @@ declare const data: {
   }
   Grenze: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -5283,7 +5283,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -5315,12 +5315,12 @@ declare const data: {
   }
   Gudea: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -5974,7 +5974,7 @@ declare const data: {
   }
   'IBM Plex Mono': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -5983,7 +5983,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -5997,7 +5997,7 @@ declare const data: {
   }
   'IBM Plex Sans': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6006,7 +6006,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6020,7 +6020,7 @@ declare const data: {
   }
   'IBM Plex Sans Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6029,7 +6029,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6043,7 +6043,7 @@ declare const data: {
   }
   'IBM Plex Serif': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6052,7 +6052,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6066,10 +6066,10 @@ declare const data: {
   }
   'IM Fell DW Pica': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -6085,10 +6085,10 @@ declare const data: {
   }
   'IM Fell Double Pica': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -6104,10 +6104,10 @@ declare const data: {
   }
   'IM Fell English': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -6123,10 +6123,10 @@ declare const data: {
   }
   'IM Fell French Canon': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -6142,10 +6142,10 @@ declare const data: {
   }
   'IM Fell Great Primer': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -6297,11 +6297,11 @@ declare const data: {
   }
   'Istok Web': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -6399,14 +6399,14 @@ declare const data: {
   }
   'Josefin Sans': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -6418,14 +6418,14 @@ declare const data: {
   }
   'Josefin Slab': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -6453,12 +6453,12 @@ declare const data: {
   }
   Judson: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -6517,7 +6517,7 @@ declare const data: {
   }
   K2D: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6527,7 +6527,7 @@ declare const data: {
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6578,7 +6578,7 @@ declare const data: {
   }
   Kanit: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6589,7 +6589,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -6631,11 +6631,11 @@ declare const data: {
   }
   Karla: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -6824,7 +6824,7 @@ declare const data: {
   }
   KoHo: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -6832,7 +6832,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -6845,7 +6845,7 @@ declare const data: {
   }
   Kodchasan: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -6853,7 +6853,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -7222,7 +7222,7 @@ declare const data: {
   }
   Krub: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -7230,7 +7230,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -7375,14 +7375,14 @@ declare const data: {
   }
   Lato: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -7418,12 +7418,12 @@ declare const data: {
   }
   Lekton: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -7561,12 +7561,12 @@ declare const data: {
   }
   'Libre Baskerville': {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -7581,19 +7581,19 @@ declare const data: {
   }
   'Libre Caslon Text': {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
   }
   'Libre Franklin': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -7604,7 +7604,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -7718,10 +7718,10 @@ declare const data: {
   }
   'Linden Hill': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -7729,13 +7729,13 @@ declare const data: {
   }
   Literata: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -7778,11 +7778,11 @@ declare const data: {
   }
   'Lobster Two': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -7834,11 +7834,11 @@ declare const data: {
   }
   Lora: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -8184,7 +8184,7 @@ declare const data: {
   }
   Mali: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -8192,7 +8192,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -8221,13 +8221,13 @@ declare const data: {
   }
   Manuale: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -8349,11 +8349,11 @@ declare const data: {
   }
   Marvel: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -8362,10 +8362,10 @@ declare const data: {
   }
   Mate: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -8489,13 +8489,13 @@ declare const data: {
   }
   Merriweather: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -8522,13 +8522,13 @@ declare const data: {
   }
   'Merriweather Sans': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -8910,7 +8910,7 @@ declare const data: {
   }
   Montserrat: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -8921,7 +8921,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -8937,7 +8937,7 @@ declare const data: {
   }
   'Montserrat Alternates': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -8948,7 +8948,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -9110,7 +9110,7 @@ declare const data: {
   }
   Muli: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9119,7 +9119,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9298,15 +9298,15 @@ declare const data: {
   }
   Neuton: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
         '700': Measurements
         '800': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -9328,6 +9328,38 @@ declare const data: {
     stats: Stats
   }
   'New Rocker': {
+    metrics: {
+      normal: {
+        '400': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'New York Extra Large': {
+    metrics: {
+      normal: {
+        '400': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'New York Large': {
+    metrics: {
+      normal: {
+        '400': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'New York Medium': {
+    metrics: {
+      normal: {
+        '400': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'New York Small': {
     metrics: {
       normal: {
         '400': Measurements
@@ -9362,7 +9394,7 @@ declare const data: {
   }
   Niramit: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9370,7 +9402,7 @@ declare const data: {
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9391,12 +9423,12 @@ declare const data: {
   }
   Nobile: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -9455,11 +9487,11 @@ declare const data: {
   }
   'Noticia Text': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -9468,11 +9500,11 @@ declare const data: {
   }
   'Noto Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -9546,11 +9578,11 @@ declare const data: {
   }
   'Noto Serif': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -9703,7 +9735,7 @@ declare const data: {
   }
   Nunito: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9712,7 +9744,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9726,7 +9758,7 @@ declare const data: {
   }
   'Nunito Sans': {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9735,7 +9767,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -9773,12 +9805,12 @@ declare const data: {
   }
   'Old Standard TT': {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -9819,14 +9851,14 @@ declare const data: {
   }
   'Open Sans': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '600': Measurements
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '600': Measurements
@@ -9838,12 +9870,12 @@ declare const data: {
   }
   'Open Sans Condensed': {
     metrics: {
+      italic: {
+        '300': Measurements
+      }
       normal: {
         '300': Measurements
         '700': Measurements
-      }
-      italic: {
-        '300': Measurements
       }
     }
     stats: Stats
@@ -9885,10 +9917,10 @@ declare const data: {
   }
   Oregano: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -9949,12 +9981,12 @@ declare const data: {
   }
   Overlock: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
@@ -9972,7 +10004,7 @@ declare const data: {
   }
   Overpass: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -9982,7 +10014,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10050,11 +10082,11 @@ declare const data: {
   }
   'PT Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10081,11 +10113,11 @@ declare const data: {
   }
   'PT Serif': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10094,10 +10126,10 @@ declare const data: {
   }
   'PT Serif Caption': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -10325,11 +10357,11 @@ declare const data: {
   }
   Philosopher: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10443,12 +10475,12 @@ declare const data: {
   }
   'Playfair Display': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
@@ -10458,12 +10490,12 @@ declare const data: {
   }
   'Playfair Display SC': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
         '900': Measurements
@@ -10501,10 +10533,10 @@ declare const data: {
   }
   Poly: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -10544,7 +10576,7 @@ declare const data: {
   }
   Poppins: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10555,7 +10587,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10657,7 +10689,7 @@ declare const data: {
   }
   Prompt: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10668,7 +10700,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10692,14 +10724,14 @@ declare const data: {
   }
   'Proza Libre': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '600': Measurements
@@ -10711,11 +10743,11 @@ declare const data: {
   }
   Puritan: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10740,11 +10772,11 @@ declare const data: {
   }
   Quantico: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10762,11 +10794,11 @@ declare const data: {
   }
   'Quattrocento Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10827,10 +10859,10 @@ declare const data: {
   }
   Radley: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -10858,7 +10890,7 @@ declare const data: {
   }
   Raleway: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10869,7 +10901,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -10909,11 +10941,11 @@ declare const data: {
   }
   Rambla: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -10983,13 +11015,13 @@ declare const data: {
   }
   'Red Hat Display': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -11000,12 +11032,12 @@ declare const data: {
   }
   'Red Hat Text': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '500': Measurements
         '700': Measurements
@@ -11087,7 +11119,7 @@ declare const data: {
   }
   Roboto: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -11095,7 +11127,7 @@ declare const data: {
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -11116,12 +11148,12 @@ declare const data: {
   }
   'Roboto Condensed': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '700': Measurements
@@ -11155,14 +11187,14 @@ declare const data: {
   }
   'Roboto Mono': {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '300': Measurements
         '400': Measurements
@@ -11249,10 +11281,10 @@ declare const data: {
   }
   'Ropa Sans': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -11260,11 +11292,11 @@ declare const data: {
   }
   Rosario: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -11273,10 +11305,10 @@ declare const data: {
   }
   Rosarivo: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -11316,14 +11348,14 @@ declare const data: {
   }
   Rubik: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -11497,6 +11529,14 @@ declare const data: {
     stats: Stats
   }
   'SF NS Text Condensed': {
+    metrics: {
+      normal: {
+        '400': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'SF Pro Text': {
     metrics: {
       normal: {
         '400': Measurements
@@ -11747,10 +11787,10 @@ declare const data: {
   }
   Sanchez: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -11766,13 +11806,13 @@ declare const data: {
   }
   Sansita: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
         '800': Measurements
@@ -11783,7 +11823,7 @@ declare const data: {
   }
   Sarabun: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -11793,7 +11833,7 @@ declare const data: {
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -11886,11 +11926,11 @@ declare const data: {
   }
   Scada: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -12036,11 +12076,11 @@ declare const data: {
   }
   Share: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -12167,11 +12207,11 @@ declare const data: {
   }
   Simonetta: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '900': Measurements
       }
@@ -12375,10 +12415,10 @@ declare const data: {
   }
   'Sorts Mill Goudy': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
       }
     }
@@ -12432,7 +12472,7 @@ declare const data: {
   }
   'Source Sans Pro': {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12440,7 +12480,7 @@ declare const data: {
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12495,11 +12535,11 @@ declare const data: {
   }
   'Space Mono': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -12516,7 +12556,7 @@ declare const data: {
   }
   Spectral: {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12525,7 +12565,7 @@ declare const data: {
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12539,7 +12579,7 @@ declare const data: {
   }
   'Spectral SC': {
     metrics: {
-      normal: {
+      italic: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12548,7 +12588,7 @@ declare const data: {
         '700': Measurements
         '800': Measurements
       }
-      italic: {
+      normal: {
         '200': Measurements
         '300': Measurements
         '400': Measurements
@@ -12993,7 +13033,7 @@ declare const data: {
   }
   Taviraj: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -13004,7 +13044,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -13112,11 +13152,11 @@ declare const data: {
   }
   Thasadith: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -13195,11 +13235,11 @@ declare const data: {
   }
   Tinos: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -13240,6 +13280,13 @@ declare const data: {
   }
   'Titillium Web': {
     metrics: {
+      italic: {
+        '200': Measurements
+        '300': Measurements
+        '400': Measurements
+        '600': Measurements
+        '700': Measurements
+      }
       normal: {
         '200': Measurements
         '300': Measurements
@@ -13247,13 +13294,6 @@ declare const data: {
         '600': Measurements
         '700': Measurements
         '900': Measurements
-      }
-      italic: {
-        '200': Measurements
-        '300': Measurements
-        '400': Measurements
-        '600': Measurements
-        '700': Measurements
       }
     }
     stats: Stats
@@ -13300,7 +13340,7 @@ declare const data: {
   }
   Trirong: {
     metrics: {
-      normal: {
+      italic: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -13311,7 +13351,7 @@ declare const data: {
         '800': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '100': Measurements
         '200': Measurements
         '300': Measurements
@@ -13335,12 +13375,12 @@ declare const data: {
   }
   Trochut: {
     metrics: {
+      italic: {
+        '400': Measurements
+      }
       normal: {
         '400': Measurements
         '700': Measurements
-      }
-      italic: {
-        '400': Measurements
       }
     }
     stats: Stats
@@ -13371,13 +13411,13 @@ declare const data: {
   }
   Ubuntu: {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -13404,11 +13444,11 @@ declare const data: {
   }
   'Ubuntu Mono': {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -13490,11 +13530,11 @@ declare const data: {
   }
   Unna: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -13594,11 +13634,11 @@ declare const data: {
   }
   Volkhov: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '700': Measurements
       }
@@ -13607,13 +13647,13 @@ declare const data: {
   }
   Vollkorn: {
     metrics: {
-      normal: {
+      italic: {
         '400': Measurements
         '600': Measurements
         '700': Measurements
         '900': Measurements
       }
-      italic: {
+      normal: {
         '400': Measurements
         '600': Measurements
         '700': Measurements
@@ -13903,14 +13943,14 @@ declare const data: {
   }
   'Zilla Slab': {
     metrics: {
-      normal: {
+      italic: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
         '600': Measurements
         '700': Measurements
       }
-      italic: {
+      normal: {
         '300': Measurements
         '400': Measurements
         '500': Measurements
@@ -13925,6 +13965,14 @@ declare const data: {
       normal: {
         '400': Measurements
         '700': Measurements
+      }
+    }
+    stats: Stats
+  }
+  'system-ui': {
+    metrics: {
+      normal: {
+        '400': Measurements
       }
     }
     stats: Stats
