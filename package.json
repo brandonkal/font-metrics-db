@@ -8,8 +8,9 @@
     "serve": "cd src && node server.js",
     "start": "cd src && node collectMetrics.js",
     "parcel": "cd src/web && parcel build index.html bundle.js --no-minify -d ../views && rm ../views/index.html",
-    "localfonts": "cd src && fc-list : family | tr , '\n' | tr '\\-' - | sed 's/\\.//g' | grep -v '[^A-Za-z0-9 -]' | sort -u | jq -R -s 'split(\"\n\")' | jq 'map(select(length > 0))'  >| ../download/local-fonts.json",
+    "localfonts": "fc-list : family | tr , '\n' | tr '\\-' - | sed 's/\\.//g' | grep -v '[^A-Za-z0-9 -]' | sort -u | jq -R -s 'split(\"\n\")' | jq 'map(select(length > 0))'  >| src/download/local-fonts.json",
     "download": "cd src/download && node run.js",
+    "sort": "sort-json data/metrics.json",
     "build": "bash scripts/build.sh",
     "prepublishOnly": "yarn ryn build"
   },

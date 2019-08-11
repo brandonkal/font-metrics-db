@@ -19,7 +19,11 @@ const getFontCatalog = require('./download/getFontCatalog')
     /** @type string */
     const font = req.params.font
 
-    const { variants, id } = getFontData(font)
+    const { variants, id, inCatalog } = getFontData(font)
+
+    const cssLink = inCatalog
+      ? `<link rel="stylesheet" href="static/${id}/${id}.css" />`
+      : ''
 
     res.render('template', {
       locals: {
@@ -27,6 +31,8 @@ const getFontCatalog = require('./download/getFontCatalog')
         id,
         variantsJSON: JSON.stringify(variants),
         variants,
+        inCatalog,
+        cssLink,
       },
     })
   })
@@ -42,10 +48,9 @@ const getFontCatalog = require('./download/getFontCatalog')
 function getFontData(font) {
   /** @type string */
   let id = font.toLowerCase().replace(' ', '-')
+  let inCatalog = false
 
-  const fontMeta = fontCatalog.find(fontMeta => {
-    return fontMeta.family === font
-  })
+  const fontMeta = fontCatalog.find(fontMeta => fontMeta.family === font)
   let variants = [
     {
       style: 'normal',
@@ -55,8 +60,9 @@ function getFontData(font) {
   if (fontMeta && fontMeta.id) {
     id = fontMeta.id
     variants = fontMeta.variants.map(calcVariants)
+    inCatalog = true
   }
-  return { variants, id, fontMeta }
+  return { variants, id, fontMeta, inCatalog }
 }
 
 function calcVariants(variant = '') {

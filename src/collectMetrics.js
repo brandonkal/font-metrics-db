@@ -14,6 +14,13 @@ try {
       localFonts = JSON.parse(fs.readFileSync('./download/local-fonts.json'))
     }
 
+    let additionalFonts = []
+    if (fs.existsSync('./download/additional-fonts.json')) {
+      additionalFonts = JSON.parse(
+        fs.readFileSync('./download/additional-fonts.json')
+      )
+    }
+
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 
@@ -38,6 +45,31 @@ try {
         console.log('Metrics Gathered for', fontName)
         db.push(`/${fontName}/metrics`, fontMetrics)
         db.push(`/${fontName}/stats`, {
+          source: 'local',
+        })
+        db.save()
+      })
+    })
+
+    additionalFonts.forEach(font => {
+      // has this already been calculated?
+      let exists = false
+      try {
+        exists = db.getData(`/${font.name}/metrics`)
+      } catch (e) {
+        exists = false
+      }
+      if (exists) return
+
+      queue.push(async () => {
+        const [fontMetrics, err] = await go(measurePage)(font['font-family'])
+        if (err != null) {
+          console.log('Error measuring font', font.name)
+          return
+        }
+        console.log('Metrics Gathered for', font.name)
+        db.push(`/${font.name}/metrics`, fontMetrics)
+        db.push(`/${font.name}/stats`, {
           source: 'local',
         })
         db.save()
