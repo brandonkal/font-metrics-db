@@ -1,6 +1,6 @@
 # Font Metrics Database
 
-This is a collection of metrics for ~1,500 fonts as measured in the browser. These fonts include 93% of the Google Fonts library.
+This is a collection of metrics for ~1,500 fonts as measured in the browser. Among these fonts, 93% of the Google Fonts library is included.
 
 The database includes measurements based on two separate algorithms. I include both to give the user more flexibility as one calculation has a more accurate capHeight.
 
