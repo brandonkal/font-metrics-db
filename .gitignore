@@ -2,3 +2,5 @@ node_modules
 fonts
 .cache
 *.tsbuildinfo
+data/metrics.ts
+data/README.md
