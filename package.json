@@ -20,7 +20,7 @@
     "font-measure": "^1.2.2",
     "golangify": "^0.3.1",
     "got": "^9.6.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.1",
     "node-json-db": "^1.0.1",
     "puppeteer": "^1.19.0",
     "sort-json": "^2.0.0"
