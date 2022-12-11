@@ -15,7 +15,7 @@
     "prepublishOnly": "yarn ryn build"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-es6-template-engine": "^2.1.9",
     "font-measure": "^1.2.2",
     "golangify": "^0.3.1",
